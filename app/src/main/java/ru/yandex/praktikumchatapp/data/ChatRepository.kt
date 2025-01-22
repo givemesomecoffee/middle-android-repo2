@@ -15,6 +15,6 @@ class ChatRepository(
     }
 
     private companion object {
-        private const val DELAY_FACTOR = 5000L
+        private const val DELAY_FACTOR = 200L
     }
 }

@@ -55,7 +55,7 @@ class ChatViewModelTest {
             jobs.joinAll()
         }
         advanceUntilIdle()
-        assertEquals(100, viewModel.messages.value.size)
+        assertEquals(messagesToSend.size, viewModel.messages.value.size)
         assertEquals(messagesToSend, viewModel.messages.value)
     }
 }
